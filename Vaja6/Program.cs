@@ -55,7 +55,7 @@ namespace vaja6 {
     class vaja { 
         public static void main(String[] args)
         {
-
+//aaaaaaaaaaaa
         }
     }
 }
