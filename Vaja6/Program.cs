@@ -16,14 +16,14 @@ namespace vaja6 {
             id = stIg;
             stIg++;
         }
-
+        //vrne id
         public int Id {
             get
             {
                 return id;
             }
         }
-
+        //vrne ime in odstrani space pri spremem
         public string U_ime {
             get
             {
@@ -34,7 +34,7 @@ namespace vaja6 {
                 u_ime = value.Trim();
             }
         }
-
+        //vrne geslo in odstrani space pri spremem
         public string U_geslo
         {
             get
@@ -46,7 +46,7 @@ namespace vaja6 {
                 u_geslo = value.Trim();
             }
         }
-
+        //vrne stIg?
         public static int StIg
         {
             get { return stIg; }
